@@ -464,7 +464,7 @@ raw_data['cleaned_spacy_sw_stemmed'] = raw_data['cleaned_spacy_sw'].apply(stem_w
 From the below table we can see a before and after effect of stemming.
 
 | Before Stemming |     | After Stemming | 
-| :--------       | | :--------   | 
+| :--------       | --- | :--------   | 
 | discussion | |discuss |
 | times | | time |
 | named | | name |
@@ -495,7 +495,7 @@ The below table shows a before and after situation after implementing Lemmatizat
 
 
 | Before Lemmatization |     | After Lemmatization | 
-| :--------       | | :--------   | 
+| :--------       | --- | :--------   | 
 | greatest | | great
 | times | | time
 | named | | name
