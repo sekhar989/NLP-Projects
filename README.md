@@ -1,2 +1,0 @@
-# NLP-Projects
-Exploring NLP
