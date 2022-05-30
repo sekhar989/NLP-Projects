@@ -463,20 +463,20 @@ raw_data['cleaned_spacy_sw_stemmed'] = raw_data['cleaned_spacy_sw'].apply(stem_w
 
 From the below table we can see a before and after effect of stemming.
 
-| Before Stemming |     | After Stemming | 
-| :--------       | --- | :--------   | 
-| discussion | |discuss |
-| times | | time |
-| named | | name |
-| films | | film |
-| saving | | save |
-| outstanding | | outstand |
-| technical | | technic |
-| message | | messag |
-| entertaining | | entertain |
-| movie | | movi |
-| combines | | combin |
-| shooting | | shoot |
+| Before Stemming | After Stemming | 
+| :--------       | :--------   | 
+| discussion |discuss |
+| times | time |
+| named | name |
+| films | film |
+| saving | save |
+| outstanding | outstand |
+| technical | technic |
+| message | messag |
+| entertaining | entertain |
+| movie | movi |
+| combines | combin |
+| shooting | shoot |
 
 For example, words like outstanding, technical, message are converted to outstand, technic, messag respectively. The root forms are not an actual word which exists in the English language.
 
@@ -494,22 +494,22 @@ raw_data['cleaned_spacy_sw_lemm'] = raw_data['cleaned_spacy_sw'].apply(lemmer)
 The below table shows a before and after situation after implementing Lemmatization. 
 
 
-| Before Lemmatization |     | After Lemmatization | 
-| :--------       | --- | :--------   | 
-| greatest | | great
-| times | | time
-| named | | name
-| greatest | | great
-| films | | film
-| saving | | save
-| entertaining | | entertain
-| combines | | combine
-| shooting | | shoot
-| things | | thing
-| starting | | start
-| civilizations | | civilization
-| wartimes | | wartime
-| says | | say
+| Before Lemmatization    | After Lemmatization | 
+| :--------       | :--------   | 
+| greatest | great
+| times | time
+| named | name
+| greatest | great
+| films | film
+| saving | save
+| entertaining | entertain
+| combines | combine
+| shooting | shoot
+| things | thing
+| starting | start
+| civilizations | civilization
+| wartimes | wartime
+| says | say
 
 From the above table we can see superlative adjectives are converted into their positive root, plurals are converted into their singular form and continuous nouns/verbs are converted into normal noun form.
 
