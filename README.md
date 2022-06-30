@@ -6,6 +6,6 @@ A curated list of NLP Projects eploring techniques ranging from basics to advanc
 - Language Modelling 
 - [Sentiment Classifier (Part of RHUL Coursework)](https://github.com/sekhar989/NLP-Projects/tree/main/Sentiment%20Classifier)
 - [Propaganda Classifier (Part of RHUL Coursework)](https://github.com/sekhar989/NLP-Projects/tree/main/Propaganda%20Classifier)
-- Named Entity Recognition
+- [Named Entity Recognition]()
 - Intent Classification
 - Text Summarization
